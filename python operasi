@@ -1,0 +1,215 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPYrKKCm8328ecorgkWeiw5",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/tiha07/DKB3263-AI-CV/blob/main/python%20operasi\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 8,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hz38gvNRFE3f",
+        "outputId": "9f360b91-86ff-4eac-aac6-bc366e01d1e6"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Tambah =  20\n",
+            "Tolak =  10\n"
+          ]
+        }
+      ],
+      "source": [
+        "def tambah(a,b):\n",
+        "  return a+b\n",
+        "\n",
+        "def tolak(c,d):\n",
+        "  return c-d\n",
+        "\n",
+        "print(\"Tambah = \", tambah(15,5))\n",
+        "print(\"Tolak = \", tolak(15,5))"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nama = \"Ali\"\n",
+        "umur = 18\n",
+        "\n",
+        "print(f\"Nama saya ialah {nama}\")\n",
+        "print(f\"Umur saya {umur} tahun\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "W3IaBFVIFesI",
+        "outputId": "8060507d-76c4-4ee7-e977-956c4b2f0c6b"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Nama saya ialah Ali\n",
+            "Umur saya 18 tahun\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def kira_luas(panjang,lebar):\n",
+        "  return panjang*lebar\n",
+        "\n",
+        "luas =kira_luas(5,5)\n",
+        "print(f\"Luas = {luas}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "GphDxGxqF-lJ",
+        "outputId": "f556e12c-f984-4733-bbcd-c8b7e99c5412"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Luas = 25\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "panjang = 5\n",
+        "lebar = 5\n",
+        "\n",
+        "luas = panjang*lebar\n",
+        "print(f\"Luas ={luas}\")\n",
+        "\n",
+        "panjang2 =4\n",
+        "lebar2 =5\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "N_S6mQEgHTj5",
+        "outputId": "1d8152b3-314a-4efc-e268-3cc0e817dc42"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Luas =25\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "def status(markah):\n",
+        "\n",
+        "  if markah >=50:\n",
+        "    print(\"Anda Lulus\")\n",
+        "  else:\n",
+        "    print(\"Anda Gagal\")\n",
+        "\n",
+        "status(75)\n",
+        "status(45)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "v42gNmZvH1vR",
+        "outputId": "6a538366-1ea6-4f43-8496-483d62759efd"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Anda Lulus\n",
+            "Anda Gagal\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def BMI(berat,tinggi):\n",
+        "  return berat/(tinggi*tinggi)\n",
+        "\n",
+        "BMI = BMI(52,1.50)\n",
+        "print(f\"BMI = {BMI}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "DuxVc-nMKFf0",
+        "outputId": "3f0ff0d2-5ec9-4219-9c5d-f15a856f289e"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "BMI = 23.11111111111111\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "k7mM4VpqLWpd"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
